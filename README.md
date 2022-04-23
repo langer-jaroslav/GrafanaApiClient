@@ -5,7 +5,7 @@
 
 Tested on Grafana 8.5
 
-# Supported of [grafana apis](https://grafana.com/docs/grafana/latest/http_api/ "Grafana's api list")
+## Supported of [grafana apis](https://grafana.com/docs/grafana/latest/http_api/ "Grafana's api list")
 - folder get/crud
 - dashboard get/crud
 
@@ -13,8 +13,8 @@ Tested on Grafana 8.5
 ## Getting started
 
    ```
-   Package Manager : Install-Package Swashbuckle.AspNetCore -Version 6.3.1
-   CLI : dotnet add package --version 6.3.1 Swashbuckle.AspNetCore
+   Package Manager : Install-Package GrafanaApiClient
+   CLI : dotnet add package GrafanaApiClient
    ```
 
 Add using and IGrafanaControlService as a service in Program.cs 
