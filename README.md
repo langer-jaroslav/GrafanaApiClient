@@ -1,4 +1,5 @@
 # GrafanaApiClient
+[![NuGet version (Newtonsoft.Json)](https://img.shields.io/nuget/v/GrafanaApiClient)](https://www.nuget.org/packages/GrafanaApiClient)
 
 ## Instalation
 Add IGrafanaControlService as a service in Program.cs 
