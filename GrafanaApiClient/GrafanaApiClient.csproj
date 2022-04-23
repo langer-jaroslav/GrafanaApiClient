@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Nullable>enable</Nullable>
+		<LangVersion>10</LangVersion>
+
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageId>NeuroSystems.GrafanaApiClient</PackageId>
+		<Version>0.0.1-alpa</Version>
+		<Authors>Jaroslav Langer</Authors>
+		<Description>Grafana api client library for .NET</Description>
+		<Copyright>Copyright (c) 2022 Jaroslav Langer</Copyright>
+		<PackageProjectUrl>https://github.com/langer-jaroslav/GrafanaApiClient</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/langer-jaroslav/GrafanaApiClient</RepositoryUrl>
+		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+		<NeutralLanguage>en</NeutralLanguage>
+		<PackageTags>grafana, api, client</PackageTags>
+		<SignAssembly>False</SignAssembly>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\LICENSE.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
