@@ -6,7 +6,7 @@
 		<LangVersion>10</LangVersion>
 
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<PackageId>NeuroSystems.GrafanaApiClient</PackageId>
+		<PackageId>GrafanaApiClient</PackageId>
 		<Version>0.0.1-alpa</Version>
 		<Authors>Jaroslav Langer</Authors>
 		<Description>Grafana api client library for .NET</Description>
