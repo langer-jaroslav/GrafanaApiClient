@@ -44,7 +44,7 @@ public partial interface IGrafanaControlService
 }
 public partial class GrafanaControlService
 {
-    public async Task<IList<FolderResponse>> FolderGetListAsync(int? limit)
+    public async Task<IList<FolderResponse>> FolderGetListAsync(int? limit=null)
     {
         var url = _serviceUrl + $"/api/folders";
         if (limit != null)
