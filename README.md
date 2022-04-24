@@ -25,6 +25,7 @@ Add using and IGrafanaControlService as a service in Program.cs
 
    ```csharp
    builder.Services.AddTransient<IGrafanaControlService, GrafanaControlService>();
+   builder.Services.AddHttpClient();
    ```
    
 Add Grafana block to your appsettings.json
